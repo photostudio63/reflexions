@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*  reset */
+/* line 18, C:/wamp/www/ESSAIS/css/main.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
@@ -9,132 +10,164 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 /* Rendre compatible les balises html5 les anciens ie */
+/* line 23, C:/wamp/www/ESSAIS/css/main.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block; }
 
 /*La grille*/
+/* line 4, C:/wamp/www/ESSAIS/css/main.scss */
 .colone1 {
   float: left;
   margin: 0 1.5%;
-  width: 6.25% -3; }
+  width: 3.25%; }
 
+/* line 4, C:/wamp/www/ESSAIS/css/main.scss */
 .colone2 {
   float: left;
   margin: 0 1.5%;
-  width: 12.5% -3; }
+  width: 9.5%; }
 
+/* line 4, C:/wamp/www/ESSAIS/css/main.scss */
 .colone3 {
   float: left;
   margin: 0 1.5%;
-  width: 18.75% -3; }
+  width: 15.75%; }
 
+/* line 4, C:/wamp/www/ESSAIS/css/main.scss */
 .colone4 {
   float: left;
   margin: 0 1.5%;
-  width: 25% -3; }
+  width: 22%; }
 
+/* line 4, C:/wamp/www/ESSAIS/css/main.scss */
 .colone5 {
   float: left;
   margin: 0 1.5%;
-  width: 31.25% -3; }
+  width: 28.25%; }
 
+/* line 4, C:/wamp/www/ESSAIS/css/main.scss */
 .colone6 {
   float: left;
   margin: 0 1.5%;
-  width: 37.5% -3; }
+  width: 34.5%; }
 
+/* line 4, C:/wamp/www/ESSAIS/css/main.scss */
 .colone7 {
   float: left;
   margin: 0 1.5%;
-  width: 43.75% -3; }
+  width: 40.75%; }
 
+/* line 4, C:/wamp/www/ESSAIS/css/main.scss */
 .colone8 {
   float: left;
   margin: 0 1.5%;
-  width: 50% -3; }
+  width: 47%; }
 
+/* line 4, C:/wamp/www/ESSAIS/css/main.scss */
 .colone9 {
   float: left;
   margin: 0 1.5%;
-  width: 56.25% -3; }
+  width: 53.25%; }
 
+/* line 4, C:/wamp/www/ESSAIS/css/main.scss */
 .colone10 {
   float: left;
   margin: 0 1.5%;
-  width: 62.5% -3; }
+  width: 59.5%; }
 
+/* line 4, C:/wamp/www/ESSAIS/css/main.scss */
 .colone11 {
   float: left;
   margin: 0 1.5%;
-  width: 68.75% -3; }
+  width: 65.75%; }
 
+/* line 4, C:/wamp/www/ESSAIS/css/main.scss */
 .colone12 {
   float: left;
   margin: 0 1.5%;
-  width: 75% -3; }
+  width: 72%; }
 
+/* line 4, C:/wamp/www/ESSAIS/css/main.scss */
 .colone13 {
   float: left;
   margin: 0 1.5%;
-  width: 81.25% -3; }
+  width: 78.25%; }
 
+/* line 4, C:/wamp/www/ESSAIS/css/main.scss */
 .colone14 {
   float: left;
   margin: 0 1.5%;
-  width: 87.5% -3; }
+  width: 84.5%; }
 
+/* line 4, C:/wamp/www/ESSAIS/css/main.scss */
 .colone15 {
   float: left;
   margin: 0 1.5%;
-  width: 93.75% -3; }
+  width: 90.75%; }
 
+/* line 4, C:/wamp/www/ESSAIS/css/main.scss */
 .colone16 {
   float: left;
   margin: 0 1.5%;
-  width: 100% -3; }
+  width: 97%; }
 
+/* line 28, C:/wamp/www/ESSAIS/css/main.scss */
 body {
   background-color: black; }
 
 /*Génériques*/
+/* line 31, C:/wamp/www/ESSAIS/css/main.scss */
 ol, ul {
   list-style: none; }
 
+/* line 32, C:/wamp/www/ESSAIS/css/main.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* line 33, C:/wamp/www/ESSAIS/css/main.scss */
 h1 {
   font-size: 24px; }
 
+/* line 34, C:/wamp/www/ESSAIS/css/main.scss */
 h2 {
   font-size: 16px; }
 
+/* line 35, C:/wamp/www/ESSAIS/css/main.scss */
 h3 {
   font-size: 14px; }
 
+/* line 36, C:/wamp/www/ESSAIS/css/main.scss */
 p {
   font-size: 12px; }
 
+/* line 37, C:/wamp/www/ESSAIS/css/main.scss */
 a {
   text-decoration: none; }
 
+/* line 38, C:/wamp/www/ESSAIS/css/main.scss */
 a:hover {
   cursor: pointer; }
 
 /* liens */
+/* line 43, C:/wamp/www/ESSAIS/css/main.scss */
 ul div {
   display: none; }
+
+/* line 46, C:/wamp/www/ESSAIS/css/main.scss */
 ul li {
   display: inline-block;
   padding: 15px; }
+  /* line 49, C:/wamp/www/ESSAIS/css/main.scss */
   ul li a {
     font-size: 24;
     color: white; }
 
+/* line 56, C:/wamp/www/ESSAIS/css/main.scss */
 li:hover div.niveau2 {
   display: block; }
 
+/* line 57, C:/wamp/www/ESSAIS/css/main.scss */
 li:hover {
   -webkit-transition: width 2s;
   -moz-transition: width 2s;
@@ -142,24 +175,30 @@ li:hover {
   background-color: grey; }
 
 /* couleurs */
+/* line 61, C:/wamp/www/ESSAIS/css/main.scss */
 .blanc {
   color: aliceblue; }
 
+/* line 62, C:/wamp/www/ESSAIS/css/main.scss */
 .black {
   color: black; }
 
+/* line 63, C:/wamp/www/ESSAIS/css/main.scss */
 .bg-black {
   background-color: black; }
 
 /* header */
+/* line 66, C:/wamp/www/ESSAIS/css/main.scss */
 #header-top {
   height: 340px;
   background-color: #1C1C1C; }
 
+/* line 67, C:/wamp/www/ESSAIS/css/main.scss */
 #menu-general {
   padding-top: 5px;
   margin-left: 25%; }
 
+/* line 68, C:/wamp/www/ESSAIS/css/main.scss */
 div .niveau2 {
   background-color: darkslategray;
   width: 600px;
@@ -168,9 +207,11 @@ div .niveau2 {
   left: 48px;
   top: 55px; }
 
+/* line 69, C:/wamp/www/ESSAIS/css/main.scss */
 div .niveau2 img {
   float: right; }
 
+/* line 70, C:/wamp/www/ESSAIS/css/main.scss */
 div .bouton {
   background-color: whitesmoke;
   width: 150px;
@@ -180,6 +221,7 @@ div .bouton {
   margin-top: 15px;
   float: left; }
 
+/* line 71, C:/wamp/www/ESSAIS/css/main.scss */
 #texte {
   display: block;
   width: 330px;
@@ -188,16 +230,19 @@ div .bouton {
   padding: 15px; }
 
 /*contenu */
+/* line 74, C:/wamp/www/ESSAIS/css/main.scss */
 #contener {
   display: block;
   width: 100%;
   margin-top: 350px; }
 
 /* colonne */
+/* line 77, C:/wamp/www/ESSAIS/css/main.scss */
 #activite {
   width: 1080px;
   margin: auto; }
 
+/* line 78, C:/wamp/www/ESSAIS/css/main.scss */
 #activite {
   -moz-column-count: 4;
   -webkit-column-count: 4;
@@ -214,11 +259,9 @@ div .bouton {
   padding: 20px;
   background: #FFF; }
 
+/* line 84, C:/wamp/www/ESSAIS/css/main.scss */
 img {
   max-width: 100%;
   height: auto; }
-
-/*box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
-  border: 5px #F2F2F2 solid; */
 
 /*# sourceMappingURL=main.css.map */
