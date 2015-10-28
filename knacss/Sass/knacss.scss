@@ -1,13 +1,6 @@
 // Sass config file
-// -----------------
-
-// (WARNING : you should comment this line and move config file from vendor/knacss folder to your own folder)
 @import "_00-config";
-
-// normalize include
 @import "_01a-normalize"; // normalize
-
-// Sass base styles
 @import "_01b-base"; // reset and basic styles
 
 // Sass files : chose the ones you need
@@ -23,11 +16,3 @@
 
 // WordPress base styles
 @import "_11-wordpress"; // WordPress reset and basic styles
-
-/* ----------------------------- */
-/* ==own stylesheet              */
-/* ----------------------------- */
-
-/* Here should go your own CSS styles */
-/* You can also link them with a Sass @import */
-/* @import "my-styles"; */

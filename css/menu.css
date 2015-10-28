@@ -1,0 +1,55 @@
+@charset "UTF-8";
+body {
+  margin: 50px;
+  background: #000;
+  color: #fff;
+  font: 1em "lucida grande",arial; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+#menu > li {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background: #333;
+  color: #fff;
+  height: 200px;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+li ul {
+  font-size: 0.85em;
+  margin: 8px;
+  line-height: 1.4; }
+
+img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: none;
+  /* Already working on webkit */
+  -webkit-transition-property: padding-left;
+  -webkit-transition-duration: .5s;
+  -webkit-transition-timing-function: ease-out;
+  /* When being supported by FF */
+  -moz-transition-property: padding-left;
+  -moz-transition-duration: .5s;
+  -moz-transition-timing-function: ease-out;
+  /* ÔÇª and if it's standardised one day (#optimism) */
+  transition-property: padding-left;
+  transition-duration: .5s;
+  transition-timing-function: ease-out; }
+
+img:hover, img:focus {
+  padding-left: 140px; }
+
+a {
+  color: #fff;
+  text-decoration: none; }
+
+/*# sourceMappingURL=menu.css.map */
