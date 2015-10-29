@@ -65,10 +65,10 @@ img {
     /* When being supported by FF */
     // -moz-transition-property: padding-left;
     // -moz-transition-duration: .5s;
-    v-moz-transition-timing-function: ease-out;
+    //v-moz-transition-timing-function: ease-out;
     /* … and if it's standardised one day (#optimism) */
     // transition-property: padding-left;
-    vtransition-duration: .5s;
+    //vtransition-duration: .5s;
     // transition-timing-function: ease-out;
     }
 
