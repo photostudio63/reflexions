@@ -34,16 +34,19 @@ img {
   border: none;
   /* Already working on webkit */
   -webkit-transition-property: padding-left;
-  -webkit-transition-duration: .5s;
+  -webkit-transition-duration: 0.5s;
   -webkit-transition-timing-function: ease-out;
   /* When being supported by FF */
   -moz-transition-property: padding-left;
-  -moz-transition-duration: .5s;
+  -moz-transition-duration: 0.5s;
   -moz-transition-timing-function: ease-out;
   /* ÔÇª and if it's standardised one day (#optimism) */
   transition-property: padding-left;
-  transition-duration: .5s;
-  transition-timing-function: ease-out; }
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  /* Already working on webkit */
+  /* When being supported by FF */
+  /* ÔÇª and if it's standardised one day (#optimism) */ }
 
 img:hover, img:focus {
   padding-left: 140px; }

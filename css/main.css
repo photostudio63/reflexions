@@ -150,24 +150,24 @@ a:hover {
   cursor: pointer; }
 
 /* liens */
-/* line 43, C:/wamp/www/ESSAIS/css/main.scss */
+/* line 42, C:/wamp/www/ESSAIS/css/main.scss */
 ul div {
   display: none; }
 
-/* line 46, C:/wamp/www/ESSAIS/css/main.scss */
+/* line 45, C:/wamp/www/ESSAIS/css/main.scss */
 ul li {
   display: inline-block;
   padding: 15px; }
-  /* line 49, C:/wamp/www/ESSAIS/css/main.scss */
+  /* line 48, C:/wamp/www/ESSAIS/css/main.scss */
   ul li a {
     font-size: 24;
     color: white; }
 
-/* line 56, C:/wamp/www/ESSAIS/css/main.scss */
+/* line 55, C:/wamp/www/ESSAIS/css/main.scss */
 li:hover div.niveau2 {
   display: block; }
 
-/* line 57, C:/wamp/www/ESSAIS/css/main.scss */
+/* line 56, C:/wamp/www/ESSAIS/css/main.scss */
 li:hover {
   -webkit-transition: width 2s;
   -moz-transition: width 2s;
@@ -175,30 +175,30 @@ li:hover {
   background-color: grey; }
 
 /* couleurs */
-/* line 61, C:/wamp/www/ESSAIS/css/main.scss */
+/* line 60, C:/wamp/www/ESSAIS/css/main.scss */
 .blanc {
   color: aliceblue; }
 
-/* line 62, C:/wamp/www/ESSAIS/css/main.scss */
+/* line 61, C:/wamp/www/ESSAIS/css/main.scss */
 .black {
   color: black; }
 
-/* line 63, C:/wamp/www/ESSAIS/css/main.scss */
+/* line 62, C:/wamp/www/ESSAIS/css/main.scss */
 .bg-black {
   background-color: black; }
 
 /* header */
-/* line 66, C:/wamp/www/ESSAIS/css/main.scss */
+/* line 65, C:/wamp/www/ESSAIS/css/main.scss */
 #header-top {
   height: 340px;
   background-color: #1C1C1C; }
 
-/* line 67, C:/wamp/www/ESSAIS/css/main.scss */
+/* line 66, C:/wamp/www/ESSAIS/css/main.scss */
 #menu-general {
   padding-top: 5px;
   margin-left: 25%; }
 
-/* line 68, C:/wamp/www/ESSAIS/css/main.scss */
+/* line 67, C:/wamp/www/ESSAIS/css/main.scss */
 div .niveau2 {
   background-color: darkslategray;
   width: 600px;
@@ -207,11 +207,11 @@ div .niveau2 {
   left: 48px;
   top: 55px; }
 
-/* line 69, C:/wamp/www/ESSAIS/css/main.scss */
+/* line 68, C:/wamp/www/ESSAIS/css/main.scss */
 div .niveau2 img {
   float: right; }
 
-/* line 70, C:/wamp/www/ESSAIS/css/main.scss */
+/* line 69, C:/wamp/www/ESSAIS/css/main.scss */
 div .bouton {
   background-color: whitesmoke;
   width: 150px;
@@ -221,7 +221,7 @@ div .bouton {
   margin-top: 15px;
   float: left; }
 
-/* line 71, C:/wamp/www/ESSAIS/css/main.scss */
+/* line 70, C:/wamp/www/ESSAIS/css/main.scss */
 #texte {
   display: block;
   width: 330px;
@@ -230,19 +230,19 @@ div .bouton {
   padding: 15px; }
 
 /*contenu */
-/* line 74, C:/wamp/www/ESSAIS/css/main.scss */
+/* line 73, C:/wamp/www/ESSAIS/css/main.scss */
 #contener {
   display: block;
   width: 100%;
   margin-top: 350px; }
 
 /* colonne */
-/* line 77, C:/wamp/www/ESSAIS/css/main.scss */
+/* line 76, C:/wamp/www/ESSAIS/css/main.scss */
 #activite {
   width: 1080px;
   margin: auto; }
 
-/* line 78, C:/wamp/www/ESSAIS/css/main.scss */
+/* line 77, C:/wamp/www/ESSAIS/css/main.scss */
 #activite {
   -moz-column-count: 4;
   -webkit-column-count: 4;
@@ -259,7 +259,7 @@ div .bouton {
   padding: 20px;
   background: #FFF; }
 
-/* line 84, C:/wamp/www/ESSAIS/css/main.scss */
+/* line 83, C:/wamp/www/ESSAIS/css/main.scss */
 img {
   max-width: 100%;
   height: auto; }

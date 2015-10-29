@@ -1,4 +1,25 @@
- body {
+ $vitesse    : .5s;
+
+ @mixin coulissante_a_gauche($vitesse) {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: none;
+    /* Already working on webkit */
+    -webkit-transition-property: padding-left;
+    -webkit-transition-duration: $vitesse;
+    -webkit-transition-timing-function: ease-out;
+    /* When being supported by FF */
+    -moz-transition-property: padding-left;
+    -moz-transition-duration: $vitesse;
+    -moz-transition-timing-function: ease-out;
+    /* … and if it's standardised one day (#optimism) */
+    transition-property: padding-left;
+    transition-duration: $vitesse;
+    transition-timing-function: ease-out;
+    }
+
+  body {
     margin: 50px;
     background: #000;
     color: #fff;
@@ -31,22 +52,23 @@ li ul {
     }
 
 img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    border: none;
+    @include coulissante_a_gauche($vitesse);
+    // position: absolute;
+    // left: 0;
+    // top: 0;
+    // border: none;
     /* Already working on webkit */
-    -webkit-transition-property: padding-left;
-    -webkit-transition-duration: .5s;
-    -webkit-transition-timing-function: ease-out;
+    // -webkit-transition-property: padding-left;
+    // -webkit-transition-duration: .5s;
+    // -webkit-transition-timing-function: ease-out;
     /* When being supported by FF */
-    -moz-transition-property: padding-left;
-    -moz-transition-duration: .5s;
-    -moz-transition-timing-function: ease-out;
+    // -moz-transition-property: padding-left;
+    // -moz-transition-duration: .5s;
+    //v-moz-transition-timing-function: ease-out;
     /* … and if it's standardised one day (#optimism) */
-    transition-property: padding-left;
-    transition-duration: .5s;
-    transition-timing-function: ease-out;
+    // transition-property: padding-left;
+    //vtransition-duration: .5s;
+    // transition-timing-function: ease-out;
     }
 
 img:hover, img:focus {padding-left:140px;}
