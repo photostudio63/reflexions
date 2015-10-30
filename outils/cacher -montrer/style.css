@@ -1,0 +1,6 @@
+.cache {display: none;}
+#bouton {width : 200px; height : 100px; background-color : red; color:rgb(255,255,255);}
+
+.cache {width : 200px; height : 100px; background-color : green;  position: absolute; left: 20px; top: 20px;}
+
+div:hover + .cache {display: block;}
